@@ -4,7 +4,7 @@ import React from "react";
 import "./styles.css";
 import Navbar from './components/common/Navbar';
 import Welcome from './components/home/Welcome';
-import AboutMe from './components/home/Aboutme';
+import AboutMe from './components/home/about/AboutMe';
 import Information from './components/home/Information';
 import Footer from './components/common/Footer';
 import ContactForm from "./components/home/ContactForm";

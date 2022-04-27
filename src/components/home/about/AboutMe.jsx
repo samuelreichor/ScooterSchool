@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-import aboutMeImg from '../../assets/Samuelreichoer.jpeg';
+import aboutMeImg from '../../../assets/Samuelreichoer.jpeg';
 
 
 const AboutMe = () => {
