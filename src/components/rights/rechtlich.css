@@ -1,0 +1,50 @@
+.flexbox-rechtliches {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #181818;
+    color: #fff;
+    min-height: 90vh;
+  }
+  
+  .content-rechtliches {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    width: 60%;
+    word-wrap: break-word;
+
+  }
+
+  p{
+      font-size: 1.2rem;
+      
+  }
+
+  h2{
+      font-size: 2rem;
+      margin-top: 3rem;
+  }
+
+  h1{
+      font-size: 4rem;
+      word-wrap: break-word;
+  }
+
+  @media screen and (max-width: 992px) {
+
+    .content-rechtliches {
+        width: 80%;
+    }
+
+    h1{
+        font-size: 3rem;
+       
+    }
+  }

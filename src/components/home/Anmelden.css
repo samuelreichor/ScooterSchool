@@ -1,0 +1,125 @@
+#anmelden {
+    background-color: #181818;
+
+  }
+
+
+  
+  .anmelden-box {
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+  }
+  .anmelden-h1{
+    text-align: center;
+
+    color: #fff;
+    font-size: 3rem;
+  }
+  .anmelden-h1::before{
+    content: '';
+    background: #48cfad;
+    height: 3px;
+    width: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(10vh)
+  }
+
+  .anmelden-links-wrapper, .anmelden-rechts-wrapper {
+   
+    padding: 3% 5% 5% 5%;
+  }
+  
+  
+  .anmelden-links-wrapper {
+    background-color: #181818;
+   
+  }
+  
+  .anmelden-rechts-wrapper {
+    background-color: #181818;
+    
+  }
+
+  .anmelden-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+   
+  }
+  
+  
+  .anmelden-position-bubbly-button{
+    width: 50%;
+    
+  }
+  .position-para{
+      font-size: 1rem;
+        margin-bottom: 1rem;
+      color: #fff;
+  }
+
+  .anmelden-para{
+    color: #fff;
+      margin-top: 10%;
+      margin-bottom: 2%;
+      font-size: 1.5rem;
+      
+  }
+  .anmelden-para-rechts{
+    color: #fff;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+    
+}
+
+.anmelden-haftung{
+    color: #fff;
+    margin-top: 3rem;
+}
+
+.anmelden-button-section{
+    text-align: center;
+    display: block;
+    margin-bottom: 10%;
+}
+
+.ul{
+  text-decoration: underline;
+}
+.ul:hover{
+  color: #48cfad;
+}
+
+  @media screen and (max-width: 992px){
+    
+    .anmeldenh2-border::before{
+        content: '';
+        background: #48cfad;
+        height: 3px;
+        width: 0em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(5.5rem)
+      }
+    
+      .anmelden-links-wrapper, .anmelden-rechts-wrapper {
+        width: 80%;
+      }
+
+      .position-para{
+          margin: 5%;
+          margin-bottom: 3%;
+          text-align: center;
+      }
+      
+  }

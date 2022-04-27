@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Oswald:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #181818;
+}
+
+.flexbox-rechtliches {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #181818;
+    color: #fff;
+    min-height: 90vh;
+  }
+  
+  .content-rechtliches {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    width: 60%;
+    word-wrap: break-word;
+
+  }
+
+  p{
+      font-size: 1.2rem;
+      
+  }
+
+  h2{
+      font-size: 2rem;
+      margin-top: 3rem;
+  }
+
+  h1{
+      font-size: 4rem;
+      word-wrap: break-word;
+  }
+
+  .btn{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 30vh;
+    font-weight: 600;
+    background: transparent;
+    
+    cursor: pointer;
+    color:#fff;
+    
+    
+  }
+  .btn.btn-tuerkis{
+    background: #48cfad;
+    color: #000;
+    border-color: #48cfad;
+    transition: all 0.5s ease-in-out;
+  }
+  .btn.btn-tuerkis:hover{
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 992px) {
+
+    .content-rechtliches {
+        width: 80%;
+    }
+
+    h1{
+        font-size: 3rem;
+       
+    }
+  }

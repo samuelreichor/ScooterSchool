@@ -1,0 +1,227 @@
+.flex-container-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    color: #fff;
+    min-height:100vh;
+    
+  }
+  .flex-items-about:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-bottom: -10vh;
+    order: 0;
+    width: 90%;
+    min-height: 10vh;
+    
+  }
+  
+  .flex-items-about:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
+    order: 0;
+    width: 40%;
+    min-height: 65vh;
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 1);
+    transition: all 0.8s ease-in-out;
+    border-radius: 12px 12px 12px 12px;
+  }
+  
+  .flex-items-about:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    
+    align-self: center;
+    order: 0;
+    width: 40%;
+    min-height: 60vh;
+    
+    
+  }
+  .flex-items-about:nth-child(2):hover{
+    box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 1);
+    -webkit-box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 1);
+    -moz-box-shadow: 0 15px 15px 0 rgba(72, 207, 173, 0.24), 0 17px 50px 0 rgba(72, 207, 173, 1);
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+  }
+
+
+  .about-h1-left{
+    text-align: center;
+
+    color: #fff;
+    font-size: 3rem;
+  }
+  .about-h1-left::before{
+    content: '';
+    background: #48cfad;
+    height: 3px;
+    width: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(10vh)
+  }
+
+  .shadow{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-image{
+    margin-top: 5vh;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+  }
+
+
+  .about-h2-left{
+    font-size: 2rem;
+    margin-top: 5vh;
+    margin-left: 6vh;
+    margin-right: 6vh;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #48cfad;
+    text-align: center;
+  }
+  
+  
+  .about-h3-left{
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+  .icons-about{
+    background: #181818;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+    border-radius: 0 0 12px 12px;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+  }
+  .icons-about li{
+    list-style-type: none;
+    background: #48cfad;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.7rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .icons-about li:hover{
+    background: #fff;
+    color: #000;
+  }
+
+  .about-h1-right{
+    font-size: 3.4rem;
+    
+    
+    text-align: center;
+  }
+  .about-h1-right span{
+    color: #48cfad;
+  }
+  
+  .about-btns{
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    text-align: center;
+  }
+  .btn{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color:#fff;
+    
+    
+  }
+  .btn.btn-tuerkis{
+    background: #48cfad;
+    color: #000;
+    border-color: #48cfad;
+    transition: all 0.5s ease-in-out;
+  }
+  .btn.btn-tuerkis:hover{
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+  }
+  .btn.btn-white{
+    transition: all 0.5s ease-in-out;
+  }
+  .btn.btn-white:hover{
+    background: #48cfad;
+    border-color: #48cfad;
+    color: #000;
+  }
+
+  .about-description p{
+      text-align: center;
+      font-size: 1.3rem;
+  }
+
+  @media screen and (max-width: 972px){
+  
+
+      .flex-items-about:nth-child(1){
+        width: 80%;
+        margin: 2vh;
+        margin-top: 4vh;
+      }
+      .flex-items-about:nth-child(2){
+        width: 80%;
+        
+        margin: 2vh;
+      }
+      .flex-items-about:nth-child(3){
+        width: 80%;
+        margin: 2vh;
+        margin-bottom: 4vh;
+      }
+
+      .about-h2-left{
+          margin-right: 3vh;
+          margin-left: 3vh;
+      }
+
+      .flex-items-about:nth-child(2):hover{
+        box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 1);
+      }
+    
+  }
+      
+  

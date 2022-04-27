@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Oswald:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #181818;
+}
+
+
+
+.gradient-bg-footer {
+  background-color: #0f0e13;
+  background-image: 
+    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 53%), 
+    radial-gradient(at 50% 150%, hsla(339,49%,30%,1) 0, transparent 50%);
+}
+
+.navbar-glassmorphism {
+background: rgba(24, 24, 24, 0.7);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.1px);
+-webkit-backdrop-filter: blur(7.1px);
+border: 1px solid rgba(24, 24, 24, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-black{
+  font-weight: 550;
+}
+
+.text-white{
+  font-size: large;
+}
+
+.fontstyleh2{
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: line;
+  color: #fff;
+  line-height: 4.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.fontstyleh1{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+@media (max-width: 992px){
+  .fontstyleh1{
+    font-size: 2rem;
+  }
+
+  .fontstyleh2{
+    font-size: 3rem;
+  }
+}
+
+
+
+
+/*Curser Effekt bei großen Devices*/
+
+@media (min-width: 1200px) and (max-width: 1500px) { 
+  .typewriter{
+    color: #fff;
+    
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .09em solid #48cfad; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 45% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #48cfad }
+  }
+ }
+
+
+
+/*-------------------Information-----------------------*/
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
