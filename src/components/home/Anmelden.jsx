@@ -41,7 +41,8 @@ const Anmelden = () => {
         <option selected>Kurstermin wählen</option>
         {/*mögliche Kurstermine */}
 
-        <option name="user_termin" value="26.06.2022">26.06.2022</option>
+        <option name="user_termin" value="04.09.2022">04.09.2022</option>
+        <option name="user_termin" value="18.09.2022">18.09.2022</option>
     </select>
     </div>
     <p className='anmelden-para'>Persönliche Daten vom Scooter-Profi ;)</p>
