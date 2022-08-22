@@ -16,7 +16,7 @@ const Termine = () => {
         </div>
         <div class="flex-items-termine">
             <h2 className="termine-h2"> Kurs für Anfänger und Fortgeschrittene</h2>
-            <h3 className="termine-h3">04.09.2022</h3>
+            <h3 className="termine-h3">11.09.2022</h3>
         <div class="grid-termine">
             <div class="icon1 iconstyle">
             <BsCalendarDate></BsCalendarDate> 
@@ -34,7 +34,7 @@ const Termine = () => {
             <GiPriceTag></GiPriceTag>
             </div>
             <div class="tex1 textstyle">
-            <p>04.09.2022</p>
+            <p>11.09.2022</p>
             </div>
             <div class="text2 textstyle">
             <p>8:00-10:00</p>
@@ -57,7 +57,7 @@ const Termine = () => {
         <div class="flex-items-termine">
         <h2 className="termine-h2">
         Kurs für Anfänger und Fortgeschrittene</h2>
-            <h3 className="termine-h3">18.09.2022</h3>
+            <h3 className="termine-h3">02.10.2022</h3>
         <div class="grid-termine">
             <div class="icon1 iconstyle">
             <BsCalendarDate></BsCalendarDate> 
@@ -75,7 +75,7 @@ const Termine = () => {
             <GiPriceTag></GiPriceTag>
             </div>
             <div class="tex1 textstyle">
-            <p>18.09.2022</p>
+            <p>02.10.2022</p>
             </div>
             <div class="text2 textstyle">
             <p>8:00-10:00</p>
