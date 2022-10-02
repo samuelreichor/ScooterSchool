@@ -16,7 +16,7 @@ const Termine = () => {
         </div>
         <div class="flex-items-termine">
             <h2 className="termine-h2"> Kurs für Anfänger und Fortgeschrittene</h2>
-            <h3 className="termine-h3">11.09.2022</h3>
+            <h3 className="termine-h3">23.10.2022</h3>
         <div class="grid-termine">
             <div class="icon1 iconstyle">
             <BsCalendarDate></BsCalendarDate> 
@@ -34,7 +34,7 @@ const Termine = () => {
             <GiPriceTag></GiPriceTag>
             </div>
             <div class="tex1 textstyle">
-            <p>11.09.2022</p>
+            <p>23.10.2022</p>
             </div>
             <div class="text2 textstyle">
             <p>8:00-10:00</p>
@@ -57,7 +57,7 @@ const Termine = () => {
         <div class="flex-items-termine">
         <h2 className="termine-h2">
         Kurs für Anfänger und Fortgeschrittene</h2>
-            <h3 className="termine-h3">02.10.2022</h3>
+            <h3 className="termine-h3">06.11.2022</h3>
         <div class="grid-termine">
             <div class="icon1 iconstyle">
             <BsCalendarDate></BsCalendarDate> 
@@ -75,7 +75,7 @@ const Termine = () => {
             <GiPriceTag></GiPriceTag>
             </div>
             <div class="tex1 textstyle">
-            <p>02.10.2022</p>
+            <p>06.11.2022</p>
             </div>
             <div class="text2 textstyle">
             <p>8:00-10:00</p>
@@ -96,8 +96,8 @@ const Termine = () => {
         </div>
 
         <div class="flex-items-termine">
-            <h2 className="termine-h2"> Kurs für Anfänger</h2>
-            <h3 className="termine-h3">29.05.2022</h3>
+            <h2 className="termine-h2">Kurs für Anfänger und Fortgeschrittene</h2>
+            <h3 className="termine-h3">20.11.2022</h3>
         <div class="grid-termine">
             <div class="icon1 iconstyle">
             <BsCalendarDate></BsCalendarDate> 
@@ -115,7 +115,48 @@ const Termine = () => {
             <GiPriceTag></GiPriceTag>
             </div>
             <div class="tex1 textstyle">
-            <p>29.05.2022</p>
+            <p>20.11.2022</p>
+            </div>
+            <div class="text2 textstyle">
+            <p>8:00-10:00</p>
+            </div>
+            <div class="text3 textstyle">
+            <p>Hausleitnerweg 105, 4020 Linz</p>
+            </div>
+            <div class="text4 textstyle">
+            <p>max. 20 Teilnehmer</p>
+            </div>
+            <div class="text5 textstyle">
+            <p>40 €</p>
+            </div>
+        </div>
+        <Link to="anmelden" smooth={true} duration={1000}>
+        <button type = "button" className = "btn btn-tuerkis termine-btn">Anmelden</button> 
+        </Link>
+        
+        </div>
+
+        <div class="flex-items-termine">
+            <h2 className="termine-h2">Kurs für Anfänger und Fortgeschrittene</h2>
+            <h3 className="termine-h3">04.12.2022</h3>
+        <div class="grid-termine">
+            <div class="icon1 iconstyle">
+            <BsCalendarDate></BsCalendarDate> 
+            </div>
+            <div class="icon2 iconstyle">
+            <AiOutlineClockCircle></AiOutlineClockCircle>
+            </div>
+            <div class="icon3 iconstyle">
+            <GoLocation></GoLocation> 
+            </div>
+            <div class="icon4 iconstyle">
+            <FaChild></FaChild>
+            </div>
+            <div class="icon5 iconstyle">
+            <GiPriceTag></GiPriceTag>
+            </div>
+            <div class="tex1 textstyle">
+            <p>04.12.2022</p>
             </div>
             <div class="text2 textstyle">
             <p>8:00-10:00</p>

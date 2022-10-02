@@ -84,6 +84,13 @@
 .anmelden-haftung{
     color: #fff;
     margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.anmelden-haftung input{
+  height: 20px;
+  width: 20px;
 }
 
 .anmelden-button-section{
