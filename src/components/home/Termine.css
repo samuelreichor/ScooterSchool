@@ -21,7 +21,7 @@
   }
   
   .flex-items-termine:nth-child(2) {
-    display: block;            /*-----------------Kurs 1 voll  / display:block----------------------*/
+    display: none;            /*-----------------Kurs 1 voll  / display:block----------------------*/
     flex-grow: 0;
     flex-shrink: 1;
     text-align: center;

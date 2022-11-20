@@ -40,8 +40,6 @@ const Anmelden = () => {
             mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1" aria-label="Default select example">
         <option selected>Kurstermin wählen</option>
         {/*mögliche Kurstermine */}
-
-        <option name="user_termin" value="20.11.2022">20.11.2022</option>
         <option name="user_termin" value="04.12.2022">04.12.2022</option>
         <option name="user_termin" value="18.12.2022">18.12.2022</option>
     </select>
