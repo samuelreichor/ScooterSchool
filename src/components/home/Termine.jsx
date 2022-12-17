@@ -16,7 +16,7 @@ const Termine = () => {
         </div>
         <div class="flex-items-termine">
             <h2 className="termine-h2"> Kurs für Anfänger und Fortgeschrittene</h2>
-            <h3 className="termine-h3">20.11.2022</h3>
+            <h3 className="termine-h3">26.12.2022</h3>
         <div class="grid-termine">
             <div class="icon1 iconstyle">
             <BsCalendarDate></BsCalendarDate> 
@@ -34,7 +34,7 @@ const Termine = () => {
             <GiPriceTag></GiPriceTag>
             </div>
             <div class="tex1 textstyle">
-            <p>20.11.2022</p>
+            <p>26.12.2022</p>
             </div>
             <div class="text2 textstyle">
             <p>8:00-10:00</p>
@@ -43,7 +43,7 @@ const Termine = () => {
             <p>Hausleitnerweg 105, 4020 Linz</p>
             </div>
             <div class="text4 textstyle">
-            <p>max. 20 Teilnehmer</p>
+            <p>max. 15 Teilnehmer</p>
             </div>
             <div class="text5 textstyle">
             <p>40 €</p>
@@ -57,7 +57,7 @@ const Termine = () => {
         <div class="flex-items-termine">
         <h2 className="termine-h2">
         Kurs für Anfänger und Fortgeschrittene</h2>
-            <h3 className="termine-h3">04.12.2022</h3>
+            <h3 className="termine-h3">15.01.2023</h3>
         <div class="grid-termine">
             <div class="icon1 iconstyle">
             <BsCalendarDate></BsCalendarDate> 
@@ -75,7 +75,7 @@ const Termine = () => {
             <GiPriceTag></GiPriceTag>
             </div>
             <div class="tex1 textstyle">
-            <p>04.12.2022</p>
+            <p>15.01.2023</p>
             </div>
             <div class="text2 textstyle">
             <p>8:00-10:00</p>
@@ -84,7 +84,7 @@ const Termine = () => {
             <p>Hausleitnerweg 105, 4020 Linz</p>
             </div>
             <div class="text4 textstyle">
-            <p>max. 20 Teilnehmer</p>
+            <p>max. 15 Teilnehmer</p>
             </div>
             <div class="text5 textstyle">
             <p>40 €</p>
@@ -97,7 +97,7 @@ const Termine = () => {
 
         <div class="flex-items-termine">
             <h2 className="termine-h2">Kurs für Anfänger und Fortgeschrittene</h2>
-            <h3 className="termine-h3">18.12.2022</h3>
+            <h3 className="termine-h3">29.01.2023</h3>
         <div class="grid-termine">
             <div class="icon1 iconstyle">
             <BsCalendarDate></BsCalendarDate> 
@@ -115,7 +115,7 @@ const Termine = () => {
             <GiPriceTag></GiPriceTag>
             </div>
             <div class="tex1 textstyle">
-            <p>18.12.2022</p>
+            <p>29.01.202</p>
             </div>
             <div class="text2 textstyle">
             <p>8:00-10:00</p>
@@ -124,7 +124,7 @@ const Termine = () => {
             <p>Hausleitnerweg 105, 4020 Linz</p>
             </div>
             <div class="text4 textstyle">
-            <p>max. 20 Teilnehmer</p>
+            <p>max. 15 Teilnehmer</p>
             </div>
             <div class="text5 textstyle">
             <p>40 €</p>
@@ -138,7 +138,7 @@ const Termine = () => {
 
         <div class="flex-items-termine">
             <h2 className="termine-h2">Kurs für Anfänger und Fortgeschrittene</h2>
-            <h3 className="termine-h3">04.12.2022</h3>
+            <h3 className="termine-h3">19.02.2023</h3>
         <div class="grid-termine">
             <div class="icon1 iconstyle">
             <BsCalendarDate></BsCalendarDate> 
@@ -156,7 +156,7 @@ const Termine = () => {
             <GiPriceTag></GiPriceTag>
             </div>
             <div class="tex1 textstyle">
-            <p>04.12.2022</p>
+            <p>19.02.2023</p>
             </div>
             <div class="text2 textstyle">
             <p>8:00-10:00</p>
@@ -165,7 +165,7 @@ const Termine = () => {
             <p>Hausleitnerweg 105, 4020 Linz</p>
             </div>
             <div class="text4 textstyle">
-            <p>max. 20 Teilnehmer</p>
+            <p>max. 15 Teilnehmer</p>
             </div>
             <div class="text5 textstyle">
             <p>40 €</p>
