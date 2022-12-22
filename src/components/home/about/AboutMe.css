@@ -4,7 +4,8 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    
+        max-width: 1840px;
+    margin: 0 auto;
     color: #fff;
     min-height:100vh;
     
